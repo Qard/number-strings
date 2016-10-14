@@ -1,0 +1,19 @@
+{
+  "name": "number-strings",
+  "version": "1.0.0",
+  "description": "Parse and stringify string representations of numbers",
+  "main": "index.js",
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build:parser && npm run build:stringifier",
+    "build:parser": "pegjs parser.pegjs",
+    "build:stringifier": "pegjs stringifier.pegjs",
+    "prepublish": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^16.0.1",
+    "pegjs": "^0.10.0"
+  }
+}
