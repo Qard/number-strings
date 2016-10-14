@@ -1,5 +1,10 @@
-const parser = require('./parser')
-const stringifier = require('./stringifier')
+var stringifier = require('./stringifier')
+var parser = require('./parser')
 
-exports.parse = v => parser.parse(v.toLowerCase())
-exports.stringify = v => stringifier.parse(v.toString())
+exports.stringify = function(number) {
+  return stringifier.parse(number.toString())
+}
+
+exports.parse = function(string) {
+  return parser.parse(string.toLowerCase())
+}

@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "description": "Parse and stringify string representations of numbers",
   "main": "index.js",
-  "author": "Stephen Belanger <admin@stephenbelanger.com>",
   "license": "MIT",
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "homepage": "https://github.com/Qard/number-strings#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qard/number-strings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qard/number-strings/issues"
+  },
   "scripts": {
     "build": "npm run build:parser && npm run build:stringifier",
     "build:parser": "pegjs parser.pegjs",
