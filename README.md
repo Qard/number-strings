@@ -1,5 +1,7 @@
 # number-strings
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Qard/number-strings.svg)](https://greenkeeper.io/)
+
 With this module, one can convert back and forth between numeric number forms
 and the equivalent string representations.
 
