@@ -21,7 +21,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^16.0.1",
+    "jest": "^21.1.0",
     "pegjs": "^0.10.0"
   }
 }
